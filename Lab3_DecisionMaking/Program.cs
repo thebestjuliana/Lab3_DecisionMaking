@@ -48,6 +48,10 @@ namespace Lab3_DecisionMaking
                 {
                     Console.WriteLine($"{userInteger} Odd");
                 }
+                if (OddTest(userInteger) == false && userInteger > 60)
+                {
+                    Console.WriteLine($"{userInteger} Even");
+                }
                 bool question = true;
                 while (question == true) 
                 {
